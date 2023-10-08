@@ -155,6 +155,31 @@ button {
 
 
 
+ @media (max-width: 450px) {
+    
+    .login-box {
+        width: 90%;
+        height: 70vh;
+        border-radius: 40px;
+        border-bottom: 5px;
+        border-right: 5px;
+    }
+
+    .input-box {
+        border-bottom: 2px solid #ffffffaf;
+        border-radius: 0;
+    }
+
+    button {
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 100px;
+        box-shadow: 0 10px 20px;
+        background: #ddc095;
+    }
+} 
+
+
 
 @media (max-width: 350px) {
     
@@ -178,20 +203,3 @@ button {
         background: #ddc095;
     }
 }
-
-
-@media (max-width: 450px) {
-    
-    .login-box {
-        width: 90%;
-        height: 70vh;
-        border-radius: 40px;
-        border-bottom: 5px;
-        border-right: 5px;
-    }
-
-    .input-box {
-        border-bottom: 2px solid #ffffffaf;
-        border-radius: 0;
-    }
-} 
